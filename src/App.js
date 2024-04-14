@@ -18,14 +18,14 @@ const App = () => {
         color="blackAlpha.700"
         fontWeight="bold"
       >
-        <GridItem pl="2" bg="#FFF8DC" area={'header'} border="solid">
+        <GridItem pl="2"  area={'header'} border="solid">
           <Header />
         </GridItem>
-        <GridItem pl="2" bg="#FFF8DC" area={'nav'} border="solid"></GridItem>
-        <GridItem pl="2" bg="#FFF8DC" area={'main'} border="solid">
+        <GridItem pl="2"  area={'nav'} border="solid"></GridItem>
+        <GridItem pl="2"  area={'main'} border="solid">
           <Main />
         </GridItem>
-        <GridItem pl="2" bg="#FFF8DC" area={'footer'} border="solid">
+        <GridItem pl="2"  area={'footer'} border="solid">
           Footer
         </GridItem>
       </Grid>
