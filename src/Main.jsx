@@ -8,6 +8,9 @@ const Main = () => {
           alt="Dan Abramov"
         />
       </Box>
+      <Box>
+        
+      </Box>
     </Container>
   );
 };
