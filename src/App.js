@@ -14,7 +14,7 @@ const App = () => {
                   "nav footer"`}
         gridTemplateRows={'1fr'}
         gridTemplateColumns={'200px 1fr'}
-        gap="1"
+        gap="5"
         color="blackAlpha.700"
         fontWeight="bold"
       >
@@ -25,7 +25,7 @@ const App = () => {
         <GridItem pl="2"  area={'main'} border="solid">
           <Main />
         </GridItem>
-        <GridItem pl="2"  area={'footer'} border="solid">
+        <GridItem pl="2" area={'footer'} border="solid">
           Footer
         </GridItem>
       </Grid>
