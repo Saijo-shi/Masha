@@ -1,0 +1,15 @@
+import { Container, Box, Image } from '@chakra-ui/react';
+const Main = () => {
+  return (
+    <Container>
+      <Box>
+        <Image w="100%" h="100%" border='solid'
+          src="https://zabavnikplus.ru/wp-content/uploads/4/4/4/44487e034e78e10024f8fac778adda42.jpeg"
+          alt="Dan Abramov"
+        />
+      </Box>
+    </Container>
+  );
+};
+
+export default Main;
