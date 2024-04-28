@@ -1,4 +1,5 @@
 import { Container, Box, Image } from '@chakra-ui/react';
+import MyPosts from './MyPosts/MyPosts';
 const Profile = () => {
   return (
     <Container>
@@ -11,14 +12,7 @@ const Profile = () => {
         />
       </Box>
       <Box>ava + description</Box>
-      <Box>
-        My posts
-        <Box>New post</Box>
-        <Box>
-          <Box>Post 1</Box>
-          <Box>Post 2</Box>
-        </Box>
-      </Box>
+     <MyPosts />
     </Container>
   );
 };
