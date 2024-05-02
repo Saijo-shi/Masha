@@ -1,29 +1,23 @@
-import { Container, Box, Textarea, Button, WrapItem, Avatar } from '@chakra-ui/react';
+import { Box, Textarea, Button } from '@chakra-ui/react';
+import Post from './Post/Post';
 const MyPosts = () => {
   return (
-    <Container>
+    <Box>
+     
       <Box>
         My posts
-        <Box>
+        <Box >
           <Textarea />
           <Button colorScheme="blue">Add post</Button>
-          <Button colorScheme="blue">Remove</Button>
+        
+        </Box>
         </Box>
         <Box>
-          <Box>
-            <WrapItem>
-              <Avatar
-                size="xl"
-                name="Christian Nwamba"
-                src="https://bit.ly/code-beast"
-              />{'Post 1 '}
-            </WrapItem>
-          </Box>
-          <Box>Post 2</Box>
-        </Box>
+         <Post />
       </Box>
-    </Container>
-  );
+   
+    </Box>
+  )
 };
 
 export default MyPosts;
