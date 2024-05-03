@@ -18,6 +18,7 @@ const App = () => {
         gap="5"
         color="blackAlpha.700"
         fontWeight="bold"
+        // bgColor='teal'
       >
         <GridItem pl="2" area={'header'} border="solid">
           <Header />
