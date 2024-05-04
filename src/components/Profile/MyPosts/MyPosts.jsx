@@ -6,13 +6,13 @@ const MyPosts = props => {
       <Box>
         My posts
         <Box>
-          <Textarea m='4'/>
-          <Button colorScheme="blue" m='4'>Add post</Button>
+          <Textarea m='2'/>
+          <Button colorScheme="blue" mb='10'>Add post</Button>
         </Box>
       </Box>
       <Box>
-        <Post message="Hi, how are you?" likesCount='15' m='4'/>
-        <Post message="It's my first post" likesCount='20' m='4'/>
+        <Post message="Hi, how are you?" likesCount='15' />
+        <Post message="It's my first post" likesCount='20'/>
       </Box>
     </Box>
   );
